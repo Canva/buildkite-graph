@@ -17,6 +17,7 @@ Object {
   "steps": Array [
     Object {
       "group": "group",
+      "label": "group",
       "steps": Array [],
     },
   ],
@@ -29,6 +30,7 @@ Object {
     Object {
       "group": "group",
       "key": "_0",
+      "label": "group",
       "steps": Array [],
     },
   ],
@@ -41,6 +43,7 @@ Object {
     Object {
       "group": "group",
       "key": "_0",
+      "label": "group",
       "steps": Array [],
     },
   ],
@@ -52,6 +55,7 @@ exports[`buildkite-graph Steps Group group step structure 1`] = `"* [object Obje
 exports[`buildkite-graph Steps Group group step yaml 1`] = `
 "steps:
   - group: group
+    label: group
     steps: []
 "
 `;
@@ -59,6 +63,7 @@ exports[`buildkite-graph Steps Group group step yaml 1`] = `
 exports[`buildkite-graph Steps Group group step yaml_depends_on 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps: []
 "
@@ -67,6 +72,7 @@ exports[`buildkite-graph Steps Group group step yaml_depends_on 1`] = `
 exports[`buildkite-graph Steps Group group step yaml_depends_on_accept_all 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps: []
 "
@@ -75,6 +81,7 @@ exports[`buildkite-graph Steps Group group step yaml_depends_on_accept_all 1`] =
 exports[`buildkite-graph Steps Group group step yaml_mutate 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps: []
 "
@@ -121,6 +128,7 @@ Object {
   "steps": Array [
     Object {
       "group": "group",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -136,6 +144,7 @@ Object {
   "steps": Array [
     Object {
       "group": "group",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -154,6 +163,7 @@ Object {
   "steps": Array [
     Object {
       "group": "group",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -173,6 +183,7 @@ Object {
     Object {
       "group": "group",
       "key": "_0",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -189,6 +200,7 @@ Object {
     Object {
       "group": "group",
       "key": "_1",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -208,6 +220,7 @@ Object {
     Object {
       "group": "group",
       "key": "_2",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -227,6 +240,7 @@ Object {
     Object {
       "group": "group",
       "key": "_0",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -243,6 +257,7 @@ Object {
     Object {
       "group": "group",
       "key": "_1",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -262,6 +277,7 @@ Object {
     Object {
       "group": "group",
       "key": "_2",
+      "label": "group",
       "steps": Array [
         Object {
           "command": "yarn",
@@ -284,6 +300,7 @@ exports[`buildkite-graph Steps Group step addition structure 3`] = `"* [object O
 exports[`buildkite-graph Steps Group step addition yaml 1`] = `
 "steps:
   - group: group
+    label: group
     steps:
       - command: yarn
 "
@@ -292,6 +309,7 @@ exports[`buildkite-graph Steps Group step addition yaml 1`] = `
 exports[`buildkite-graph Steps Group step addition yaml 2`] = `
 "steps:
   - group: group
+    label: group
     steps:
       - command: yarn
       - command: yarn test
@@ -301,6 +319,7 @@ exports[`buildkite-graph Steps Group step addition yaml 2`] = `
 exports[`buildkite-graph Steps Group step addition yaml 3`] = `
 "steps:
   - group: group
+    label: group
     steps:
       - command: yarn
       - command: yarn test
@@ -310,6 +329,7 @@ exports[`buildkite-graph Steps Group step addition yaml 3`] = `
 exports[`buildkite-graph Steps Group step addition yaml_depends_on 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps:
       - command: yarn
@@ -319,6 +339,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on 1`] = `
 exports[`buildkite-graph Steps Group step addition yaml_depends_on 2`] = `
 "steps:
   - group: group
+    label: group
     key: _1
     steps:
       - command: yarn
@@ -329,6 +350,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on 2`] = `
 exports[`buildkite-graph Steps Group step addition yaml_depends_on 3`] = `
 "steps:
   - group: group
+    label: group
     key: _2
     steps:
       - command: yarn
@@ -339,6 +361,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on 3`] = `
 exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps:
       - command: yarn
@@ -348,6 +371,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 1`
 exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 2`] = `
 "steps:
   - group: group
+    label: group
     key: _1
     steps:
       - command: yarn
@@ -358,6 +382,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 2`
 exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 3`] = `
 "steps:
   - group: group
+    label: group
     key: _2
     steps:
       - command: yarn
@@ -368,6 +393,7 @@ exports[`buildkite-graph Steps Group step addition yaml_depends_on_accept_all 3`
 exports[`buildkite-graph Steps Group step addition yaml_mutate 1`] = `
 "steps:
   - group: group
+    label: group
     key: _0
     steps:
       - command: yarn
@@ -377,6 +403,7 @@ exports[`buildkite-graph Steps Group step addition yaml_mutate 1`] = `
 exports[`buildkite-graph Steps Group step addition yaml_mutate 2`] = `
 "steps:
   - group: group
+    label: group
     key: _1
     steps:
       - command: yarn
@@ -387,6 +414,7 @@ exports[`buildkite-graph Steps Group step addition yaml_mutate 2`] = `
 exports[`buildkite-graph Steps Group step addition yaml_mutate 3`] = `
 "steps:
   - group: group
+    label: group
     key: _2
     steps:
       - command: yarn
@@ -410,7 +438,7 @@ exports[`buildkite-graph Steps Group with a label json 1`] = `
 Object {
   "steps": Array [
     Object {
-      "group": "another",
+      "group": "Trigger another pipeline",
       "label": "Trigger another pipeline",
       "steps": Array [],
     },
@@ -422,7 +450,7 @@ exports[`buildkite-graph Steps Group with a label json_depends_on 1`] = `
 Object {
   "steps": Array [
     Object {
-      "group": "another",
+      "group": "Trigger another pipeline",
       "key": "_0",
       "label": "Trigger another pipeline",
       "steps": Array [],
@@ -435,7 +463,7 @@ exports[`buildkite-graph Steps Group with a label json_depends_on_accept_all 1`]
 Object {
   "steps": Array [
     Object {
-      "group": "another",
+      "group": "Trigger another pipeline",
       "key": "_0",
       "label": "Trigger another pipeline",
       "steps": Array [],
@@ -448,7 +476,7 @@ exports[`buildkite-graph Steps Group with a label structure 1`] = `"* [object Ob
 
 exports[`buildkite-graph Steps Group with a label yaml 1`] = `
 "steps:
-  - group: another
+  - group: Trigger another pipeline
     label: Trigger another pipeline
     steps: []
 "
@@ -456,7 +484,7 @@ exports[`buildkite-graph Steps Group with a label yaml 1`] = `
 
 exports[`buildkite-graph Steps Group with a label yaml_depends_on 1`] = `
 "steps:
-  - group: another
+  - group: Trigger another pipeline
     label: Trigger another pipeline
     key: _0
     steps: []
@@ -465,7 +493,7 @@ exports[`buildkite-graph Steps Group with a label yaml_depends_on 1`] = `
 
 exports[`buildkite-graph Steps Group with a label yaml_depends_on_accept_all 1`] = `
 "steps:
-  - group: another
+  - group: Trigger another pipeline
     label: Trigger another pipeline
     key: _0
     steps: []
@@ -474,7 +502,7 @@ exports[`buildkite-graph Steps Group with a label yaml_depends_on_accept_all 1`]
 
 exports[`buildkite-graph Steps Group with a label yaml_mutate 1`] = `
 "steps:
-  - group: another
+  - group: Trigger another pipeline
     label: Trigger another pipeline
     key: _0
     steps: []

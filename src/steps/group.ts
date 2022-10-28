@@ -11,8 +11,10 @@ export class GroupStep extends LabeledStep implements Serializable {
 
   private readonly pipeline: Pipeline = new Pipeline('');
 
-  constructor(public readonly name: string) {
+  constructor(label: string) {
     super();
+
+    this.withLabel(label);
   }
 
   add(...steps: PotentialStep[]): this {
@@ -25,7 +27,7 @@ export class GroupStep extends LabeledStep implements Serializable {
     opts: ToJsonSerializationOptions = toJsonSerializationDefaultOptions,
   ): Promise<Record<string, unknown>> {
     return {
-      group: this.name,
+      group: this.label,
       ...(await super.toJson(opts)),
       steps: (await this.pipeline.toJson()).steps,
     };
