@@ -1,6 +1,6 @@
 {
   "name": "@canva/buildkite-graph",
-  "version": "6.1.1",
+  "version": "6.1.4",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
@@ -68,6 +68,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:joscha/buildkite-graph.git"
+    "url": "git+ssh://git@github.com/Canva/buildkite-graph.git"
   }
 }
